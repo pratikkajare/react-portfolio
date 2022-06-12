@@ -6,6 +6,7 @@ import TextUtils from "../../img/TextUtills.png";
 import Ecommerce from "../../img/Amazone_clone.png";
 
 import GithubOverpp from "../../img/githubOver.png";
+import Weatherapp from "../../img/weatherapp.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -30,6 +31,10 @@ const Portfolio = () => {
         <SwiperSlide>
           <img src={Ecommerce} alt="Amazone_Clone" />
           <small className="pr_name"> Amazone_Clone</small>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Weatherapp} alt="Weatherapp" />
+          <small className="pr_name"> Weather App</small>
         </SwiperSlide>
         <SwiperSlide>
           <img src={GithubOverpp} alt="GithubOverpp" />
