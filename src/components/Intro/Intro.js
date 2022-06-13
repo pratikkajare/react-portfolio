@@ -30,7 +30,10 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hi! I Am</span>
           <span>Pratik Kajare</span>
           <span>
-            I’m a frontend Web Application Developer with having experience in creating projects in ReactJs & constantly experimenting with new technologies as well as love to convert those learnings into awesome projects and strive to better myself as a developer.
+            I’m a frontend Web Application Developer with having experience in
+            creating projects in ReactJs & constantly experimenting with new
+            technologies as well as love to convert those learnings into awesome
+            projects and strive to better myself as a developer.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -40,12 +43,17 @@ const Intro = () => {
         {/* social icons */}
         <div className="i-icons">
           <a href="https://github.com/PratikKajare" target="_blank">
-            <img src={Github} alt="Github" /></a>
-          <a href="https://www.linkedin.com/in/pratik-kajare-3699a51aa/" target="_blank">
+            <img src={Github} alt="Github" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/pratik-kajare-3699a51aa/"
+            target="_blank"
+          >
             <img src={LinkedIn} alt="" />
           </a>
           <a href="https://www.instagram.com/pratik_kajare/" target="_blank">
-            <img src={Instagram} alt="" /></a>
+            <img src={Instagram} alt="" />
+          </a>
         </div>
       </div>
       {/* right image side */}
@@ -63,8 +71,8 @@ const Intro = () => {
         />
 
         <motion.div
-          initial={{ top: "-4%", left: "74%" }}
-          whileInView={{ left: "68%" }}
+          initial={{ top: "-4%", left: "84%" }}
+          whileInView={{ left: "67%" }}
           transition={transition}
           className="floating-div"
         >
