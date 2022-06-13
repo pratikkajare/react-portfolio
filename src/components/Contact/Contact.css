@@ -41,8 +41,7 @@ textarea {
   left: 8rem;
 }
 .co_box {
-  background: transparent;
-  background-color: bisque;
+  background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
   border-radius: 5px;
   font-size: medium;
   padding: 4px;
