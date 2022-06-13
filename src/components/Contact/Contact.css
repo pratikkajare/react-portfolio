@@ -40,7 +40,13 @@ textarea {
   top: 1rem;
   left: 8rem;
 }
-
+.co_box {
+  background: transparent;
+  background-color: bisque;
+  border-radius: 5px;
+  font-size: medium;
+  padding: 4px;
+}
 @media screen and (max-width: 480px) {
   .contact-form {
     padding: 0;
