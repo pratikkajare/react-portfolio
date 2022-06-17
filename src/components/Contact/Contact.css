@@ -46,6 +46,9 @@ textarea {
   font-size: medium;
   padding: 4px;
 }
+.invalid-in {
+  font-size: small;
+}
 @media screen and (max-width: 480px) {
   .contact-form {
     padding: 0;

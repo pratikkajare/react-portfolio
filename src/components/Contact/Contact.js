@@ -1,15 +1,27 @@
 import React, { useContext, useRef, useState } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
+
 import { themeContext } from "../../Context";
+import Spinner from "../Spinner/Spinner";
 const Contact = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   const form = useRef();
   const [done, setDone] = useState(false);
+  const [loading, setLoading] = useState(false);
+
+  // const [name, setName] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [error, setError] = useState(false);
+
   const sendEmail = (e) => {
     e.preventDefault();
-
+    // if (!name || !email) {
+    //   setError(true);
+    //   return false;
+    // }
+    setLoading(true);
     emailjs
       .sendForm(
         "service_cjo1l7j",
@@ -20,6 +32,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          setLoading(false);
           setDone(true);
           form.reset();
         },
@@ -52,14 +65,28 @@ const Contact = () => {
             className="user"
             placeholder="Name"
           />
+          {/* {error && !name && <span className="invalid-in">error</span>} */}
           <input
             type="email"
             name="user_email"
             className="user"
             placeholder="Email"
           />
+          {/* <input
+            type="email"
+            name="user_email"
+            className="user"
+            placeholder="Email"
+            value={email}
+            onChange={(e) => {
+              setEmail(e.target.values);
+            }}
+          /> */}
+          {/* {error && !email && <span>error</span>} */}
           <textarea name="message" className="user" placeholder="Message" />
-          <input type="submit" value="Send" className="button" />
+          <button type="submit" className="button">
+            {loading && <Spinner /> ? <Spinner /> : "SEND"}
+          </button>
           <span className="co_box">{done && "Thanks for Contacting"}</span>
           <div
             className="blur c-blur1"
