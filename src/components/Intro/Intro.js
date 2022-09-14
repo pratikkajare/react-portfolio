@@ -42,16 +42,25 @@ const Intro = () => {
 
         {/* social icons */}
         <div className="i-icons">
-          <a href="https://github.com/PratikKajare" target="_blank">
+          <a
+            href="https://github.com/PratikKajare"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={Github} alt="Github" />
           </a>
           <a
             href="https://www.linkedin.com/in/pratik-kajare-3699a51aa/"
             target="_blank"
+            rel="noreferrer"
           >
             <img src={LinkedIn} alt="" />
           </a>
-          <a href="https://www.instagram.com/pratik_kajare/" target="_blank">
+          <a
+            href="https://www.instagram.com/pratik_kajare/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={Instagram} alt="" />
           </a>
         </div>

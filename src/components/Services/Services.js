@@ -19,10 +19,10 @@ const Services = () => {
   const darkMode = theme.state.darkMode;
 
   // transition
-  const transition = {
-    duration: 1,
-    type: "spring",
-  };
+  // const transition = {
+  //   duration: 1,
+  //   type: "spring",
+  // };
 
   return (
     <div className="services" id="services">
