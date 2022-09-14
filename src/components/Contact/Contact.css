@@ -1,0 +1,64 @@
+.contact-form {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 70vh;
+  margin-top: 1rem;
+  /* scroll */
+  padding-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.c-right {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex: 1;
+}
+
+.c-right > form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.c-right .user {
+  width: 20rem;
+  height: 2rem;
+  padding: 0.3em;
+  outline: none;
+  border: 2px solid var(--orange);
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+textarea {
+  height: 4rem !important;
+}
+
+.c-blur1 {
+  top: 1rem;
+  left: 8rem;
+}
+.co_box {
+  background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+  border-radius: 5px;
+  font-size: medium;
+  padding: 4px;
+}
+.invalid-in {
+  font-size: small;
+}
+@media screen and (max-width: 480px) {
+  .contact-form {
+    padding: 0;
+    flex-direction: column;
+    gap: 3rem;
+    height: 38rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  .c-right .user {
+    width: 16rem;
+  }
+}
