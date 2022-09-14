@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.bb2d2b80.css",
+    "main.js": "/react-portfolio/static/js/main.95ba7632.js",
+    "static/media/weatherapp.png": "/react-portfolio/static/media/weatherapp.dc1583d6daa91292e0f0.png",
+    "static/media/Amazone_clone.png": "/react-portfolio/static/media/Amazone_clone.6a1edeaa10da3cbbace8.png",
+    "static/media/hh.png": "/react-portfolio/static/media/hh.fc76e6f99763a90cde47.png",
+    "static/media/githubOver.png": "/react-portfolio/static/media/githubOver.af69aca6245460fb7f50.png",
+    "static/media/glassesimoji.png": "/react-portfolio/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/TextUtills.png": "/react-portfolio/static/media/TextUtills.b60c4f12df5a92d82e6c.png",
+    "static/media/thumbup.png": "/react-portfolio/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/wave.png": "/react-portfolio/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/react-portfolio/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/react-portfolio/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.bb2d2b80.css.map": "/react-portfolio/static/css/main.bb2d2b80.css.map",
+    "main.95ba7632.js.map": "/react-portfolio/static/js/main.95ba7632.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb2d2b80.css",
+    "static/js/main.95ba7632.js"
+  ]
+}
