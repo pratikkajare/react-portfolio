@@ -3,10 +3,10 @@
   display: flex;
   height: 24rem;
   margin-bottom: 1rem;
-  margin-top: 9rem;
-
+  margin-top: -1rem;
+justify-content: space-between;
   /* scroll view */
-  padding-top: 3rem;
+
 }
 /* left side */
 .awesome {
